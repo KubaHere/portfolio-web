@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Domů",
+    "about": "O mně",
+    "skills": "Dovednosti",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "hi": "Ahoj, jsem Jakub Žák",
+    "title": "Vývojář webových aplikací",
+    "subtitle": "Vášnivý vývojář vytvářející inovativní digitální řešení",
+    "ctaProjects": "Zobrazit projekty",
+    "ctaContact": "Kontaktovat"
+  },
+  "about": {
+    "title": "O mně",
+    "bio": "Jsem oddaný vývojář s vášní pro vytváření elegantních, efektivních a uživatelsky přívětivých aplikací. S odborností v moderních webových technologiích si užívám přeměnu složitých problémů na jednoduchá a krásná řešení.",
+    "downloadCV": "Stáhnout CV"
+  },
+  "skills": {
+    "title": "Dovednosti a technologie",
+    "description": "Zde jsou technologie, se kterými pracuji",
+    "python": {
+      "name": "Python",
+      "description": "Vývoj webových aplikací, analýza dat, automatizace"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "Frontend vývoj, Node.js, moderní ES6+"
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "Type-safe JavaScript vývoj"
+    },
+    "css": {
+      "name": "CSS",
+      "description": "Responzivní design, animace, preprocessory"
+    },
+    "react": {
+      "name": "React",
+      "description": "Komponentový UI vývoj"
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "description": "Server-side JavaScript vývoj"
+    },
+    "git": {
+      "name": "Git",
+      "description": "Správa verzí a spolupráce"
+    },
+    "sql": {
+      "name": "SQL",
+      "description": "Návrh databází a dotazy"
+    }
+  },
+  "projects": {
+    "title": "Vybrané projekty",
+    "description": "Výběr mé nedávné práce",
+    "viewLive": "Živá ukázka",
+    "viewCode": "Zobrazit kód",
+    "filterAll": "Vše",
+    "filterPython": "Python",
+    "filterJavaScript": "JavaScript",
+    "filterTypeScript": "TypeScript",
+    "filterCSS": "CSS",
+    "ecommerce": {
+      "title": "E-Commerce Platforma",
+      "description": "Full-stack e-commerce řešení s uživatelskou autentifikací, správou produktů a integrací plateb."
+    },
+    "taskapp": {
+      "title": "Aplikace pro správu úkolů",
+      "description": "Spolupracující aplikace pro správu úkolů s real-time aktualizacemi a týmovou spoluprací."
+    },
+    "weather": {
+      "title": "Počasí Dashboard",
+      "description": "Responzivní počasí aplikace zobrazující aktuální podmínky a předpovědi pomocí externích API."
+    },
+    "blog": {
+      "title": "Blog CMS",
+      "description": "Systém pro správu obsahu blogů s podporou markdown a administrátorským panelem."
+    },
+    "portfolio": {
+      "title": "Portfolio Web",
+      "description": "Responzivní portfolio web postavený s moderními webovými technologiemi a plynulými animacemi."
+    },
+    "dataviz": {
+      "title": "Nástroj pro vizualizaci dat",
+      "description": "Interaktivní nástroj pro vizualizaci dat pro analýzu a prezentaci složitých datových souborů."
+    }
+  },
+  "contact": {
+    "title": "Ozvěte se",
+    "description": "Vždy mě zajímají nové příležitosti a vzrušující projekty. Neváhejte se ozvat!",
+    "name": "Jméno",
+    "email": "E-mail",
+    "message": "Zpráva",
+    "send": "Odeslat zprávu",
+    "success": "Zpráva byla úspěšně odeslána!",
+    "error": "Prosím vyplňte všechna pole správně.",
+    "nameRequired": "Jméno je povinné",
+    "emailRequired": "E-mail je povinný",
+    "emailInvalid": "Prosím zadejte platný e-mail",
+    "messageRequired": "Zpráva je povinná"
+  },
+  "footer": {
+    "copyright": "© 2024 [YOUR_NAME]. Všechna práva vyhrazena.",
+    "madeWith": "Vytvořeno s ❤️ a React"
+  },
+  "common": {
+    "loading": "Načítání...",
+    "error": "Něco se pokazilo",
+    "backToTop": "Zpět nahoru"
+  }
+}

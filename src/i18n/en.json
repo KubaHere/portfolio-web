@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hi": "Hi, I'm Jakub Žák",
+    "title": "Web Application Developer",
+    "subtitle": "Passionate developer creating innovative digital solutions",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm a dedicated developer with a passion for creating elegant, efficient, and user-friendly applications. With expertise in modern web technologies, I enjoy turning complex problems into simple, beautiful solutions.",
+    "downloadCV": "Download CV"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "description": "Here are the technologies I work with",
+    "python": {
+      "name": "Python",
+      "description": "Web development, data analysis, automation"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "Frontend development, Node.js, modern ES6+"
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "Type-safe JavaScript development"
+    },
+    "css": {
+      "name": "CSS",
+      "description": "Responsive design, animations, preprocessors"
+    },
+    "react": {
+      "name": "React",
+      "description": "Component-based UI development"
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "description": "Server-side JavaScript development"
+    },
+    "git": {
+      "name": "Git",
+      "description": "Version control and collaboration"
+    },
+    "sql": {
+      "name": "SQL",
+      "description": "Database design and queries"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "A selection of my recent work",
+    "viewLive": "Live Demo",
+    "viewCode": "View Code",
+    "filterAll": "All",
+    "filterPython": "Python",
+    "filterJavaScript": "JavaScript",
+    "filterTypeScript": "TypeScript",
+    "filterCSS": "CSS",
+    "ecommerce": {
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution with user authentication, product management, and payment integration."
+    },
+    "taskapp": {
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates and team collaboration features."
+    },
+    "weather": {
+      "title": "Weather Dashboard",
+      "description": "A responsive weather application that displays current conditions and forecasts using external APIs."
+    },
+    "blog": {
+      "title": "Blog CMS",
+      "description": "A content management system for blogs with markdown support and admin panel."
+    },
+    "portfolio": {
+      "title": "Portfolio Website",
+      "description": "A responsive portfolio website built with modern web technologies and smooth animations."
+    },
+    "dataviz": {
+      "title": "Data Visualization Tool",
+      "description": "An interactive data visualization tool for analyzing and presenting complex datasets."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm always interested in new opportunities and exciting projects. Feel free to reach out!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Please fill in all fields correctly.",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email",
+    "messageRequired": "Message is required"
+  },
+  "footer": {
+    "copyright": "© 2024 Jakub Žák. All rights reserved.",
+    "madeWith": "Made with ❤️ and React"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "backToTop": "Back to top"
+  }
+}
