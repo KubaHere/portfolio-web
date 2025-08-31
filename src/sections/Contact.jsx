@@ -111,7 +111,7 @@ const Contact = () => {
                 <div className="contact__info-icon">📍</div>
                 <div className="contact__info-content">
                   <h3>Location</h3>
-                  <p>[CITY, COUNTRY]</p>
+                  <p>Praha, Czech Republic</p>
                 </div>
               </div>
               

@@ -54,6 +54,13 @@
       "description": "Návrh databází a dotazy"
     }
   },
+  "filterNames": {
+    "all": "Vše",
+    "python": "Python",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "css": "CSS"
+  },
   "projects": {
     "title": "Vybrané projekty",
     "description": "Výběr mé nedávné práce",
@@ -104,8 +111,7 @@
     "messageRequired": "Zpráva je povinná"
   },
   "footer": {
-    "copyright": "© 2024 [YOUR_NAME]. Všechna práva vyhrazena.",
-    "madeWith": "Vytvořeno s ❤️ a React"
+    "copyright": "© 2025 Jakub Žák. Všechna práva vyhrazena."
   },
   "common": {
     "loading": "Načítání...",

@@ -42,7 +42,7 @@ const Projects = () => {
                 onClick={() => handleFilterChange(filter.id)}
                 className={`projects__filter-btn ${activeFilter === filter.id ? 'projects__filter-btn--active' : ''}`}
               >
-                {t(filter.key)}
+                {t(`filterNames.${filter.id}`)}
               </button>
             ))}
           </div>

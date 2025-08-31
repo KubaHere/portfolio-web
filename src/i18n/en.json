@@ -54,16 +54,19 @@
       "description": "Database design and queries"
     }
   },
+  "filterNames": {
+    "all": "All",
+    "python": "Python",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "css": "CSS"
+  },
   "projects": {
     "title": "Featured Projects",
     "description": "A selection of my recent work",
     "viewLive": "Live Demo",
     "viewCode": "View Code",
-    "filterAll": "All",
-    "filterPython": "Python",
-    "filterJavaScript": "JavaScript",
-    "filterTypeScript": "TypeScript",
-    "filterCSS": "CSS",
+
     "ecommerce": {
       "title": "E-Commerce Platform",
       "description": "A full-stack e-commerce solution with user authentication, product management, and payment integration."
@@ -104,8 +107,7 @@
     "messageRequired": "Message is required"
   },
   "footer": {
-    "copyright": "© 2024 Jakub Žák. All rights reserved.",
-    "madeWith": "Made with ❤️ and React"
+    "copyright": "© 2025 Jakub Žák. All rights reserved."
   },
   "common": {
     "loading": "Loading...",

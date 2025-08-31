@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="footer__section">
             <h3 className="footer__title">Jakub Žák</h3>
             <p className="footer__description">
-              {t('footer.madeWith')}
+              
             </p>
           </div>
           

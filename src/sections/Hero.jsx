@@ -46,7 +46,7 @@ const Hero = () => {
           
           <div className="hero__social">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/KubaHere" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hero__social-link"
@@ -57,7 +57,7 @@ const Hero = () => {
               </svg>
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://linkedin.com/in/jakub-žák-276283315/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hero__social-link"

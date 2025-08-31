@@ -1,6 +1,7 @@
 import { useI18n } from '../contexts/I18nContext';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import './About.css';
+import photo from '../assets/profil.jpg'; 
 
 const About = () => {
   const { t } = useI18n();
@@ -34,7 +35,7 @@ const About = () => {
               <div className="about__details">
                 <div className="about__detail">
                   <span className="about__detail-label">Location:</span>
-                  <span className="about__detail-value">[CITY, COUNTRY]</span>
+                  <span className="about__detail-value">Praha, Czech Republic</span>
                 </div>
                 
                 <div className="about__detail">
@@ -60,7 +61,7 @@ const About = () => {
             
             <div className="about__image">
               <div className="about__image-placeholder">
-                <span className="about__image-text">[YOUR_PHOTO]</span>
+                <img src={photo} alt="Jakub Žák" className="about__image-photo" />
               </div>
             </div>
           </div>
