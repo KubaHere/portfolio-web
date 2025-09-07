@@ -110,16 +110,16 @@ const Contact = () => {
               <div className="contact__info-item">
                 <div className="contact__info-icon">📍</div>
                 <div className="contact__info-content">
-                  <h3>Location</h3>
-                  <p>Praha, Czech Republic</p>
+                  <h3>{t('contact.location')}</h3>
+                  <p>{t('contact.locationMessage')}</p>
                 </div>
               </div>
               
               <div className="contact__info-item">
                 <div className="contact__info-icon">💼</div>
                 <div className="contact__info-content">
-                  <h3>Availability</h3>
-                  <p>Open to new opportunities</p>
+                  <h3>{t('contact.availability')}</h3>
+                  <p>{t('contact.availabilityMessage')}</p>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleInputChange}
                   className={`contact__form-input ${errors.name ? 'contact__form-input--error' : ''}`}
-                  placeholder="Your name"
+                  placeholder={t('contact.namePlaceholder')}
                 />
                 {errors.name && (
                   <span className="contact__form-error">{errors.name}</span>
@@ -172,7 +172,7 @@ const Contact = () => {
                   onChange={handleInputChange}
                   rows="5"
                   className={`contact__form-textarea ${errors.message ? 'contact__form-textarea--error' : ''}`}
-                  placeholder="Your message..."
+                  placeholder={t('contact.messagePlaceholder')}
                 />
                 {errors.message && (
                   <span className="contact__form-error">{errors.message}</span>
