@@ -15,6 +15,11 @@
   },
   "about": {
     "title": "O mně",
+    "location": "Lokalita",
+    "email": "E-mail",
+    "locationValue": "Praha, Česká republika",
+    "experienceValue": "2 roky",
+    "experience": "Zkušenosti",
     "bio": "Jsem oddaný vývojář s vášní pro vytváření elegantních, efektivních a uživatelsky přívětivých aplikací. S odborností v moderních webových technologiích si užívám přeměnu složitých problémů na jednoduchá a krásná řešení.",
     "downloadCV": "Stáhnout CV"
   },

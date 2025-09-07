@@ -1,7 +1,8 @@
 import { useI18n } from '../contexts/I18nContext';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import './About.css';
-import photo from '../assets/profil.jpg'; 
+import photo from '../assets/profile.jpeg'
+import CV from '../assets/Jakub Žák.pdf'
 
 const About = () => {
   const { t } = useI18n();
@@ -9,10 +10,9 @@ const About = () => {
 
   const handleDownloadCV = () => {
     // Replace with actual CV file path
-    const cvUrl = '/cv.pdf'; // You can place your CV in the public folder
     const link = document.createElement('a');
-    link.href = cvUrl;
-    link.download = 'CV-[YOUR_NAME].pdf';
+    link.href = CV;
+    link.download = 'Jakub Žák.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -33,21 +33,23 @@ const About = () => {
               </p>
               
               <div className="about__details">
+                <div className="about__detail_container">
                 <div className="about__detail">
-                  <span className="about__detail-label">Location:</span>
-                  <span className="about__detail-value">Praha, Czech Republic</span>
+                  <span className="about__detail-label">{t('about.location')}:</span>
+                  <span className="about__detail-value">{t('about.locationValue')}</span>
                 </div>
                 
                 <div className="about__detail">
-                  <span className="about__detail-label">Email:</span>
+                  <span className="about__detail-label">{t('about.email')}:</span>
                   <a href="mailto:jakub.zak.business@gmail.com" className="about__detail-value about__detail-link">
                     jakub.zak.business@gmail.com
                   </a>
                 </div>
                 
                 <div className="about__detail">
-                  <span className="about__detail-label">Experience:</span>
-                  <span className="about__detail-value">2 years</span>
+                  <span className="about__detail-label">{t('about.experience')}:</span>
+                  <span className="about__detail-value">{t('about.experienceValue')}</span>
+                  </div>
                 </div>
               </div>
               

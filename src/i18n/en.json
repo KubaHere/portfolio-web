@@ -15,6 +15,11 @@
   },
   "about": {
     "title": "About Me",
+    "location": "Location",
+    "locationValue": "Prague, Czech Republic",
+    "experienceValue": "2 years",
+    "email": "E-mail",
+    "experience": "Experience",
     "bio": "I'm a dedicated developer with a passion for creating elegant, efficient, and user-friendly applications. With expertise in modern web technologies, I enjoy turning complex problems into simple, beautiful solutions.",
     "downloadCV": "Download CV"
   },
