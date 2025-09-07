@@ -8,7 +8,7 @@
   },
   "hero": {
     "hi": "Ahoj, jsem Jakub Žák",
-    "title": "Vývojář webových aplikací",
+    "title": "Softwarový vývojář",
     "subtitle": "Vášnivý vývojář vytvářející inovativní digitální řešení",
     "ctaProjects": "Zobrazit projekty",
     "ctaContact": "Kontaktovat"
@@ -111,7 +111,15 @@
     "messageRequired": "Zpráva je povinná"
   },
   "footer": {
-    "copyright": "© 2025 Jakub Žák. Všechna práva vyhrazena."
+    "copyright": "© 2025 Jakub Žák. Všechna práva vyhrazena.",
+    "linker":"Rychlá navigace",
+    "connect":"Konekce",
+    "settings":"Nastavení",
+    "home":"Domů",
+    "about":"O mně",
+    "skills":"Dovednosti",
+    "projects":"Projekty",
+    "contact":"Kontakt"
   },
   "common": {
     "loading": "Načítání...",

@@ -8,7 +8,7 @@
   },
   "hero": {
     "hi": "Hi, I'm Jakub Žák",
-    "title": "Web Application Developer",
+    "title": "Software Developer",
     "subtitle": "Passionate developer creating innovative digital solutions",
     "ctaProjects": "View Projects",
     "ctaContact": "Contact Me"
@@ -107,7 +107,15 @@
     "messageRequired": "Message is required"
   },
   "footer": {
-    "copyright": "© 2025 Jakub Žák. All rights reserved."
+    "copyright": "© 2025 Jakub Žák. All rights reserved.",
+    "linker":"Quick Links",
+    "connect":"Connect",
+    "settings":"Settings",
+    "home":"Home",
+    "about":"About",
+    "skills":"Skills",
+    "projects":"Projects",
+    "contact":"Contact"
   },
   "common": {
     "loading": "Loading...",

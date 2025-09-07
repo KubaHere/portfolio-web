@@ -22,18 +22,18 @@ const Footer = () => {
           </div>
           
           <div className="footer__section">
-            <h4 className="footer__subtitle">Quick Links</h4>
+            <h4 className="footer__subtitle">{t('footer.linker')}</h4>
             <ul className="footer__links">
-              <li><button onClick={() => document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' })}><a>Home</a></button></li>
-              <li><button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}><a>About</a></button></li>
-              <li><button onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}><a>Skills</a></button></li>
-              <li><button onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}><a>Projects</a></button></li>
-              <li><button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}><a>Contact</a></button></li>
+              <li><button onClick={() => document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' })}><a>{t('footer.home')}</a></button></li>
+              <li><button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}><a>{t('footer.about')}</a></button></li>
+              <li><button onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}><a>{t('footer.skills')}</a></button></li>
+              <li><button onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}><a>{t('footer.projects')}</a></button></li>
+              <li><button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}><a>{t('footer.contact')}</a></button></li>
             </ul>
           </div>
           
           <div className="footer__section">
-            <h4 className="footer__subtitle">Connect</h4>
+            <h4 className="footer__subtitle">{t('footer.connect')}</h4>
             <div className="footer__social">
               <a 
                 href="https://github.com/yourusername" 
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
           
           <div className="footer__section">
-            <h4 className="footer__subtitle">Settings</h4>
+            <h4 className="footer__subtitle">{t('footer.settings')}</h4>
             <div className="footer__controls">
               <button
                 onClick={toggleLanguage}
