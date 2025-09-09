@@ -53,11 +53,7 @@
     "git": {
       "name": "Git",
       "description": "Správa verzí a spolupráce"
-    },
-    "sql": {
-      "name": "SQL",
-      "description": "Návrh databází a dotazy"
-    }
+    } 
   },
   "filterNames": {
     "all": "Vše",

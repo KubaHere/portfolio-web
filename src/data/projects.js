@@ -1,12 +1,14 @@
+import blackjackImg from '../assets/projects/blackjack.png';
+
 export const projects = [
   {
     id: 1,
-    titleKey: "projects.ecommerce.title",
-    descriptionKey: "projects.ecommerce.description",
-    techTags: ["Python", "JavaScript", "CSS"],
-    image: "/projects/ecommerce.jpg",
-    liveUrl: "https://example-ecommerce.com",
-    repoUrl: "https://github.com/yourusername/ecommerce-platform"
+    titleKey: "projects.blackjack.title",
+    descriptionKey: "projects.blackjack.description",
+    techTags: ["HTML", "JavaScript", "CSS"],
+    image: blackjackImg,
+    liveUrl: "https://blackjack.jakubzak.tech",
+    repoUrl: "https://github.com/KubaHere/javascript-blackjack"
   },
   {
     id: 2,

@@ -22,31 +22,10 @@ const Skills = () => {
       category: 'primary'
     },
     {
-      nameKey: 'skills.typescript.name',
-      descriptionKey: 'skills.typescript.description',
-      level: 'Intermediate',
-      icon: '🔷',
-      category: 'primary'
-    },
-    {
-      nameKey: 'skills.css.name',
-      descriptionKey: 'skills.css.description',
-      level: 'Advanced',
-      icon: '🎨',
-      category: 'primary'
-    },
-    {
       nameKey: 'skills.react.name',
       descriptionKey: 'skills.react.description',
       level: 'Advanced',
       icon: '⚛️',
-      category: 'secondary'
-    },
-    {
-      nameKey: 'skills.nodejs.name',
-      descriptionKey: 'skills.nodejs.description',
-      level: 'Intermediate',
-      icon: '🟢',
       category: 'secondary'
     },
     {
@@ -57,12 +36,27 @@ const Skills = () => {
       category: 'secondary'
     },
     {
-      nameKey: 'skills.sql.name',
-      descriptionKey: 'skills.sql.description',
+      nameKey: 'skills.css.name',
+      descriptionKey: 'skills.css.description',
+      level: 'Advanced',
+      icon: '🎨',
+      category: 'primary'
+    },
+    {
+      nameKey: 'skills.typescript.name',
+      descriptionKey: 'skills.typescript.description',
       level: 'Intermediate',
-      icon: '🗄️',
+      icon: '🔷',
+      category: 'primary'
+    },
+    {
+      nameKey: 'skills.nodejs.name',
+      descriptionKey: 'skills.nodejs.description',
+      level: 'Intermediate',
+      icon: '🟢',
       category: 'secondary'
-    }
+    },
+    
   ];
   
 

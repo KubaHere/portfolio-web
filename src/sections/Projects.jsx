@@ -56,9 +56,12 @@ const Projects = () => {
                 onClick={() => openProjectModal(project)}
               >
                 <div className="projects__card-image">
-                  <div className="projects__card-image-placeholder">
-                    <span className="projects__card-image-text">[PROJECT IMAGE]</span>
-                  </div>
+                  <img
+                    src={project.image}
+                    alt={t(project.titleKey)}
+                    className="projects__card-image-img"
+                    loading="lazy"
+                  />
                 </div>
                 
                 <div className="projects__card-content">
@@ -114,9 +117,11 @@ const Projects = () => {
             
             <div className="projects__modal-content">
               <div className="projects__modal-image">
-                <div className="projects__modal-image-placeholder">
-                  <span>[PROJECT IMAGE]</span>
-                </div>
+                <img
+                  src={selectedProject.image}
+                  alt={t(selectedProject.titleKey)}
+                  className="projects__modal-image-img"
+                />
               </div>
               
               <div className="projects__modal-details">
