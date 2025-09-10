@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useI18n } from '../contexts/I18nContext';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
+import emailjs from 'emailjs-com';
+import { EMAILJS_CONFIG } from '../config/emailjs';
 import './Contact.css';
 
 const Contact = () => {
@@ -14,6 +16,7 @@ const Contact = () => {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+
 
   const validateForm = () => {
     const newErrors = {};
@@ -62,16 +65,21 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Create mailto link
-      const subject = 'Portfolio Inquiry';
-      const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-      const mailtoLink = `mailto:[YOUR_EMAIL]?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      
-      // Open default email client
-      window.open(mailtoLink);
+      // EmailJS template parameters
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+        to_email: EMAILJS_CONFIG.TO_EMAIL
+      };
+
+      // Odeslání emailu přes EmailJS
+      await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        templateParams,
+        EMAILJS_CONFIG.USER_ID
+      );
       
       setSubmitStatus('success');
       setFormData({ name: '', email: '', message: '' });
@@ -80,6 +88,7 @@ const Contact = () => {
       // Reset status after 5 seconds
       setTimeout(() => setSubmitStatus(null), 5000);
     } catch (error) {
+      console.error('EmailJS Error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
