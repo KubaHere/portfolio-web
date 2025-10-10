@@ -88,6 +88,16 @@ const Projects = () => {
                         {t('projects.viewLive')}
                       </a>
                     )}
+                    {
+                      project.betaTag && (
+                        <span className="projects__card-beta-tag">BETA</span>
+                      )
+                    }
+                    {
+                      project.earlyBetaTag && (
+                        <span className="projects__card-beta-tag">EARLY BETA</span>
+                      )
+                    }
                     {project.repoUrl && (
                       <a 
                         href={project.repoUrl}
@@ -129,7 +139,7 @@ const Projects = () => {
                 <p className="projects__modal-description">{t(selectedProject.descriptionKey)}</p>
                 
                 <div className="projects__modal-tech">
-                  <h4>Technologies:</h4>
+                  <h4>{t('projects.technologies')}</h4>
                   <div className="projects__modal-tech-tags">
                     {selectedProject.techTags.map(tag => (
                       <span key={tag} className="projects__modal-tech-tag">

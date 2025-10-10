@@ -1,4 +1,7 @@
 import blackjackImg from '../assets/projects/blackjack.png';
+import portfolioImg from '../assets/projects/portfolio.png';
+import sysonImg from '../assets/projects/syson.png';
+import codelfluxImg from '../assets/projects/codeflux-beta.png';
 
 export const projects = [
   {
@@ -9,6 +12,33 @@ export const projects = [
     image: blackjackImg,
     liveUrl: "https://blackjack.jakubzak.tech",
     repoUrl: "https://github.com/KubaHere/javascript-blackjack"
+  },
+  {
+    id: 2,
+    titleKey: "projects.portfolio.title",
+    descriptionKey: "projects.portfolio.description",
+    techTags: ["React", "JavaScript", "CSS"],
+    image: portfolioImg,
+    liveUrl: "https://jakubzak.tech",
+    repoUrl: "https://github.com/KubaHere/portfolio-web"
+  },
+  {
+    id: 3,
+    titleKey: "projects.syson.title",
+    descriptionKey: "projects.syson.description",
+    techTags: ["React", "JavaScript", "CSS"],
+    image: sysonImg,
+    betaTag: true,
+    liveUrl: "https://syson.jakubzak.tech",
+    repoUrl: "https://github.com/KubaHere/syson-web"
+  },
+  {
+    id: 4,
+    titleKey: "projects.codeflux.title",
+    descriptionKey: "projects.codeflux.description",
+    techTags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    image: codelfluxImg,
+    earlyBetaTag: true,
   }
 ];
 

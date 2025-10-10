@@ -17,10 +17,10 @@
     "title": "About Me",
     "location": "Location",
     "locationValue": "Prague, Czech Republic",
-    "experienceValue": "2 years",
+    "experienceValue": "No professional experience yet",
     "email": "E-mail",
     "experience": "Experience",
-    "bio": "I'm a dedicated developer with a passion for creating elegant, efficient, and user-friendly applications. With expertise in modern web technologies, I enjoy turning complex problems into simple, beautiful solutions.",
+    "bio": "I'm a starting dedicated developer with a passion for creating elegant, efficient, and user-friendly applications. With expertise in modern web technologies, I enjoy turning complex problems into simple, beautiful solutions.",
     "downloadCV": "Download CV"
   },
   "skills": {
@@ -53,6 +53,14 @@
     "git": {
       "name": "Git",
       "description": "Version control and collaboration"
+    },
+    "tailwind" :{
+      "name": "Tailwind CSS",
+      "description": "CSS Framework for faster development of responsive designs"
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "description": "React framework for server-side rendering and static & dynamic web generation"
     }
   },
   "filterNames": {
@@ -67,30 +75,23 @@
     "description": "A selection of my recent work",
     "viewLive": "Live Demo",
     "viewCode": "View Code",
+    "technologies": "Technologies:",
 
     "blackjack": {
       "title": "Blackjack Game",
       "description": "A classic card game implemented with modern web technologies."
     },
-    "taskapp": {
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates and team collaboration features."
-    },
-    "weather": {
-      "title": "Weather Dashboard",
-      "description": "A responsive weather application that displays current conditions and forecasts using external APIs."
-    },
-    "blog": {
-      "title": "Blog CMS",
-      "description": "A content management system for blogs with markdown support and admin panel."
-    },
     "portfolio": {
       "title": "Portfolio Website",
       "description": "A responsive portfolio website built with modern web technologies and smooth animations."
     },
-    "dataviz": {
-      "title": "Data Visualization Tool",
-      "description": "An interactive data visualization tool for analyzing and presenting complex datasets."
+    "syson": {
+      "title": "Syson Web",
+      "description": "Unfinished web application for a small family business focused on web development and applications."
+    },
+    "codeflux": {
+      "title": "CodeFlux",
+      "description": "A web application for calculating WPM, typing on custom code snippets."
     }
   },
   "contact": {

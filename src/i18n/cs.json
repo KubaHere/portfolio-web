@@ -18,9 +18,9 @@
     "location": "Lokalita",
     "email": "E-mail",
     "locationValue": "Praha, Česká republika",
-    "experienceValue": "2 roky",
+    "experienceValue": "Zatím bez placené praxe",
     "experience": "Zkušenosti",
-    "bio": "Jsem oddaný vývojář s vášní pro vytváření elegantních, efektivních a uživatelsky přívětivých aplikací. S odborností v moderních webových technologiích si užívám přeměnu složitých problémů na jednoduchá a krásná řešení.",
+    "bio": "Jsem začínajícíoddaný vývojář s vášní pro vytváření elegantních, efektivních a uživatelsky přívětivých aplikací. S odborností v moderních webových technologiích si užívám přeměnu složitých problémů na jednoduchá a krásná řešení.",
     "downloadCV": "Stáhnout CV"
   },
   "skills": {
@@ -53,7 +53,15 @@
     "git": {
       "name": "Git",
       "description": "Správa verzí a spolupráce"
-    } 
+    },
+    "tailwind": {
+      "name": "Tailwind CSS",
+      "description": "CSS Framework pro rychlejší vývoj responzivních designů"
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "description": "React framework pro server-side rendering a generování statických a dynamických webů"
+    }
   },
   "filterNames": {
     "all": "Vše",
@@ -72,30 +80,25 @@
     "filterJavaScript": "JavaScript",
     "filterTypeScript": "TypeScript",
     "filterCSS": "CSS",
-    "ecommerce": {
-      "title": "E-Commerce Platforma",
-      "description": "Full-stack e-commerce řešení s uživatelskou autentifikací, správou produktů a integrací plateb."
-    },
-    "taskapp": {
-      "title": "Aplikace pro správu úkolů",
-      "description": "Spolupracující aplikace pro správu úkolů s real-time aktualizacemi a týmovou spoluprací."
-    },
-    "weather": {
-      "title": "Počasí Dashboard",
-      "description": "Responzivní počasí aplikace zobrazující aktuální podmínky a předpovědi pomocí externích API."
-    },
-    "blog": {
-      "title": "Blog CMS",
-      "description": "Systém pro správu obsahu blogů s podporou markdown a administrátorským panelem."
+    "technologies": "Technologie:",
+
+    "blackjack": {
+      "title": "Blackjack Hra",
+      "description": "Klasická karetní hra - můj první JavaScript projekt"
     },
     "portfolio": {
       "title": "Portfolio Web",
       "description": "Responzivní portfolio web postavený s moderními webovými technologiemi a plynulými animacemi."
     },
-    "dataviz": {
-      "title": "Nástroj pro vizualizaci dat",
-      "description": "Interaktivní nástroj pro vizualizaci dat pro analýzu a prezentaci složitých datových souborů."
+    "syson":{
+      "title": "Syson Web",
+      "description": "Nedokončená webová aplikace pro malou rodinnou firmu, zaměřující se na vývoj webových stránek a aplikací."
+    },
+    "codeflux":{
+      "title": "CodeFlux",
+      "description": "Webová aplikace pro kalkulování WPM při psaní kódových snippetů."
     }
+    
   },
   "contact": {
     "title": "Ozvěte se",

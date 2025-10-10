@@ -36,7 +36,7 @@ const Footer = () => {
             <h4 className="footer__subtitle">{t('footer.connect')}</h4>
             <div className="footer__social">
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/KubaHere" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="footer__social-link"
@@ -47,7 +47,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/jakub-%C5%BE%C3%A1k-276283315/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="footer__social-link"

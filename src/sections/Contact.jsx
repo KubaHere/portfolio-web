@@ -110,8 +110,8 @@ const Contact = () => {
                 <div className="contact__info-icon">📧</div>
                 <div className="contact__info-content">
                   <h3>Email</h3>
-                  <a href="mailto:jakub.zak.business@gmail.com" className="contact__info-link">
-                    jakub.zak.business@gmail.com
+                  <a href="mailto:zak@jakubzak.tech" className="contact__info-link">
+                    zak@jakubzak.tech
                   </a>
                 </div>
               </div>

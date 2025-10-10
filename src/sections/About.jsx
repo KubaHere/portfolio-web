@@ -41,8 +41,8 @@ const About = () => {
                 
                 <div className="about__detail">
                   <span className="about__detail-label">{t('about.email')}:</span>
-                  <a href="mailto:jakub.zak.business@gmail.com" className="about__detail-value about__detail-link">
-                    jakub.zak.business@gmail.com
+                  <a href="mailto:zak@jakubzak.tech" className="about__detail-value about__detail-link">
+                    zak@jakubzak.tech
                   </a>
                 </div>
                 

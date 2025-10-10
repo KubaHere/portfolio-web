@@ -12,7 +12,7 @@ const Skills = () => {
       descriptionKey: 'skills.python.description',
       level: 'Advanced',
       icon: '🐍',
-      category: 'primary'
+      category: 'secondary'
     },
     {
       nameKey: 'skills.javascript.name',
@@ -26,7 +26,7 @@ const Skills = () => {
       descriptionKey: 'skills.react.description',
       level: 'Advanced',
       icon: '⚛️',
-      category: 'secondary'
+      category: 'primary'
     },
     {
       nameKey: 'skills.git.name',
@@ -50,12 +50,19 @@ const Skills = () => {
       category: 'primary'
     },
     {
-      nameKey: 'skills.nodejs.name',
-      descriptionKey: 'skills.nodejs.description',
-      level: 'Intermediate',
-      icon: '🟢',
+      nameKey: 'skills.tailwind.name',
+      descriptionKey: 'skills.tailwind.description',
+      level: 'Beginner',
+      icon: '🎨',
       category: 'secondary'
     },
+    {
+      nameKey: 'skills.nextjs.name',
+      descriptionKey: 'skills.nextjs.description',
+      level: 'Beginner',
+      icon: '➡️',
+      category: 'secondary'
+    }
     
   ];
   
